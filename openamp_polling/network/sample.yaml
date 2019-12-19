@@ -1,0 +1,7 @@
+sample:
+  name: nRF53 PCa10095 Network Sample
+tests:
+  test:
+    filter: DT_GPIO_LEDS_LED0_GPIO_CONTROLLER and DT_GPIO_LEDS_LED1_GPIO_CONTROLLER
+    tags: LED gpio
+    harness: led

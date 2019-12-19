@@ -1,0 +1,8 @@
+sample:
+  name: nRF53 PCA10095 Application Sample
+tests:
+  test:
+    tags: gpio
+    filter: DT_GPIO_LEDS_LED0_GPIO_CONTROLLER and DT_GPIO_LEDS_LED1_GPIO_CONTROLLER
+    depends_on: LED gpio
+    harness: led
